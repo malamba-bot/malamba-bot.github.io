@@ -1,15 +1,3 @@
-body {
-    margin: 0;
-    font-family: "JetBrains Mono", monospace;
-    font-weight: 300;
-    letter-spacing: -0.01em;
-}
-
-.outline {
-    border: 2px dotted red;
-}
-
-
 #content {
     display: flex;
     justify-content: center;
@@ -22,7 +10,7 @@ body {
 #intro-video {
     display: flex;
     width: 640px;
-    border: 6px solid #5582DA;
+    border: 6px solid #4b607f;
     height: 100%;
 }
 
@@ -31,14 +19,15 @@ body {
     letter-spacing: -0.05em;
     font-size: 85px;
     line-height: 1.2;
-    color: white;
+    color: #e8d8c9;
     margin-top: 0px; 
     width: 100%;
     max-width: 277px;
 }
 
 #name {
-    color: #5582DA;
+    /*color: #5582DA;*/
+    color: #f3701e;
 }
 
 
@@ -68,15 +57,12 @@ body {
         min-width: 0px;
         margin-bottom: 0px;
         paddding-bottom: 0px;
-
-
     }
 
     #intro-video {
         width: 100%;
         max-width: 640px;
         min-width: 0px;
-
     }
 
     .mobile-text-break {

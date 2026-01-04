@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: alliance;
+    src: url("Resources/Alliance No.2 Regular.otf");
+
+}
+#content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #232323;
+    padding: 40px 10px;
+    height: auto;
+    margin: 0px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 930px;
+}
+
+.project {
+    font-family: alliance, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.project-video {
+    width: 553px;
+    height: auto;
+    border: 4px solid #4b607f;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.project-desc-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-heading {
+    font-size: 30px;
+    color: #f3701e;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.project-text {
+    font-size: 16px;
+    color: #e8d8c9;
+    line-height: 25px;
+}
+
+.project-link {
+    display: inline-flex;
+    padding: 10px 30px;
+    background: #4b607f;
+    color: #232323; 
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    text-size: 30px;
+
+}
+
+.project-link:hover {
+    background: #f3701e;
+
+}
+
+.line {
+    background: #f3701e;
+    height: 2px;
+    margin: 30px 0px;
+    width: 100%;
+
+}
+
+@media (max-width: 876px) {
+
+    .project {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .project-video {
+        width: 100%;
+        max-width: 700px;
+
+    }
+
+    #content {
+        width: 100%;
+        max-width: 700px;
+
+    }
+
+}

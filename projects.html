@@ -1,8 +1,70 @@
 <!doctype html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="projects.css">
+        <link rel="stylesheet" href="partials.css">
+        <link rel="stylesheet" href="global.css">
+        <title>Projects | Max Kinet</title>
+        <!--meta tags give browser and devices instructions and specification
+            about your website-->
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--tells mobile phones to use their actual screen width-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div id="header-placeholder"></div>
+        <div id="content-wrapper">
+            <div id="content">
+                <div class="project">
+                    <video class="project-video" src="Resources/desert_bloom_final.mov" controls
+                        autoplay muted loop playsinline></video>
+                    <div class="project-desc-container">
+                        <h1 class="project-heading">01 <br> Desert Bloom</h1>
+                        <p class="project-text">Desert Bloom is a resource-based
+                        game made with GDevelop. It was an excercise in rapid
+                        team development and was created from scratch with a
+                        team of three in three weeks. I am the owner of all art,
+                        systems, and progression.</p>
+                        <a class="project-link"
+                            href="https://gd.games/games/dad0094e-3db7-49ba-ba79-dfc3b47790d2">Play</a>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="project">
+                    <video class="project-video" src="Resources/teashop_demo.mp4" controls
+                        autoplay muted loop playsinline></video>
+                    <div class="project-desc-container">
+                        <h1 class="project-heading">02 <br> Teashop Backrooms</h1>
+                        <p class="project-text">Teashop Backrooms is a
+                        link-based game made using Twine. It explores the limits
+                        of the branching with state narrative pattern and
+                        linking mechanics by allowing the player to move back
+                        and forth between certain rooms and parts of the story.
+                        This creates a sense of agency while pacing is tightly
+                        controlled using task-gated progression.</p>
+                        <a class="project-link"
+                            href="Resources/Tea Shop Backrooms.html.zip" download>Download ZIP</a>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="project">
+                    <video class="project-video" src="Resources/maze_demo.mp4" controls
+                        autoplay muted loop playsinline></video>
+                    <div class="project-desc-container">
+                        <h1 class="project-heading">03 <br> Maze Generator</h1>
+                        <p class="project-text">A maze generator made in Java
+                        that efficiently creates mazes of any dimension by using
+                        weighted and path-compressed union find. The resulting
+                        set is used to print the maze to the terminal using
+                        characters.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-placeholder"></div>
+        <script src="include.js"></script>
     </body>
 </html>

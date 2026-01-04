@@ -1,5 +1,15 @@
+@font-face {
+    font-family: alliance;
+    src: url(Resources/"Alliance No.2 Regular.otf");
+
+}
+.outline {
+    border: 2px dotted red;
+}
+
 html, body {
     overflow-x: auto;
+    margin: 0px;
 }
 
 * {
